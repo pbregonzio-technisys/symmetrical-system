@@ -2,6 +2,10 @@
   "name": "client-mobile",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "ios": "react-native run-ios"
+  },
   "dependencies": {
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
@@ -9,6 +13,21 @@
     "react-native": "*",
     "react-native-config": "*",
     "react-native-svg": "*",
-    "@react-native-async-storage/async-storage": "*"
+    "@react-native-async-storage/async-storage": "*",
+    "metro-config": "*",
+    "i18next": "*",
+    "react-i18next": "*",
+    "intl-pluralrules": "*",
+    "react-native-gesture-handler": "*",
+    "react-native-safe-area-context": "*",
+    "@gorhom/bottom-sheet": "*",
+    "react-native-reanimated": "*",
+    "@react-navigation/native": "*",
+    "@react-navigation/devtools": "*",
+    "@react-navigation/stack": "*",
+    "@react-navigation/bottom-tabs": "*",
+    "@react-navigation/drawer": "*",
+    "react-native-linear-gradient": "*",
+    "@react-navigation/elements": "*"
   }
 }

@@ -12,9 +12,12 @@
     "module": "esnext",
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
+    "resolveJsonModule": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@symmetrical-system/common-ui": ["libs/common-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

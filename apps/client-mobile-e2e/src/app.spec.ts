@@ -6,8 +6,6 @@ describe('ClientMobile', () => {
   });
 
   it('should display welcome message', async () => {
-    await expect(element(by.id('heading'))).toHaveText(
-      'Welcome ClientMobile 👋'
-    );
+    await expect(element(by.id('heading'))).toHaveText('Welcome ClientMobile');
   });
 });
